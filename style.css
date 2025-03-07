@@ -1,1 +1,54 @@
+html, body {
+  margin: 0;
+  padding: 0;
+   background: url('ras.jpg');
+}
+canvas {
+  display: block;
+  font-family:Noto Sans, sans-serif;
+}
 
+h1{
+    color: rgb(211,185,234);
+    font-size: larger;
+    text-align: center;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
+  background-color: black;
+    color: blueviolet;;
+    font-size: larger;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    filter: drop-shadow(1px 1px 20px rgb(105, 10, 248));
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
+  
+}
+
+footer {
+    background-color: black;
+    color: blueviolet;;
+    font-size: larger;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    filter: drop-shadow(1px 1px 20px rgb(105, 10, 248));
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+footer p {
+    text-align: center;
+    font-size: larger;
+    margin-top: 0.7rem;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 22px;
+}
