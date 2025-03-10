@@ -24,8 +24,8 @@ function ativaJogo() {
 
 function desenhaJogadores() {
   textSize(40);
-  text("😎", xJogador1, 100);
-  text("❤️", xJogador2, 200);
+  text("👨‍💻", xJogador1, 100);
+  text("💰", xJogador2, 200);
 }
 
 function desenhaLinhaDeChegada() {
@@ -47,7 +47,7 @@ function keyReleased() {
   if (key == "a") {
     xJogador1 += random(20);
   }
-  if (key == "b") {
+  if (key == "1") {
     xJogador2 += random(20);
   }
 }
